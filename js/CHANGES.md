@@ -1,6 +1,12 @@
 # ChangeLog
 
 ## Version 0.6.3
+  * 2026-06-07
+  * Some more minor updates from updated comments in thread
+  *   https://github.com/avinash311/itrans/issues/11
+  * ISO file updated: Some #tamil chars added, updated some input codes: H, ~H, Q, \m, |, ||.
+  * Itrans 5.3: nx added.
+
   * 2026-05-31
   * Many vedic tones added. examples.html updated with vedic tone codes.
 
