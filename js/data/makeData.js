@@ -1,8 +1,16 @@
+/**
+ * @fileoverview Download a TSV tab-separated Itrans Table Spreadsheet
+ * @author Avinash Chopde <avinash@aczoom.com>
+ * @version 0.3.0
+ * @since 2026-05-31
+ *
+ * http://www.aczoom.com/itrans/
+ */
+
 'use strict';
 
 // JavaScript ES6 required.
 
-const fetch = require('node-fetch');
 const fs = require('fs');
 const ItransTable = require('../src/ItransTable');
 
@@ -109,10 +117,13 @@ function makeData(saveName, url) {
       loadAndSave(saveName, tsvBody);
     }
 
-    fetch(url)
+    fetch(url) // use standard Node.js function available in 2025+ nodejs
       .then(res => res.text()) // returns response as text
       .then(doFetch) // doFetch(tsvBody)
-      .catch(result => console.log('Failed URL download', result));
+      .catch((err) => {
+        // Handle error here
+        console.log("Unable to fetch -", err);
+      });
 
   } else {
     // This is likely not useful - since it will just rename an existing disk file.

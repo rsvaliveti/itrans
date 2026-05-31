@@ -1,5 +1,19 @@
 # ChangeLog
 
+## Version 0.6.3
+  * 2026-05-31
+  * Many vedic tones added. examples.html updated with vedic tone codes.
+
+  * Updated coding for 5.3 and ISO15919: https://github.com/avinash311/itrans/issues/11
+  * itrans-iso15919-unicode-mapping shared file updated
+  * Some "itrans may 2026 updates" file changes manually copied over, others unchanged
+  *   Added: Zh (zha), Q (nukta), .ga, .aa, \', \_,  many vedic codes.
+
+  * 2025-12-29
+  * Added vedic tone signs to the iso based transliteration table.
+    Downloaded updated itrans-iso15919-unicode-mapping shared file https://docs.google.com/spreadsheets/d/1PHC3EJ69PZ4U39LSWtjMJhOL7aVE5qdW8qANaPTKDW8/edit?usp=sharing
+    as posted in https://github.com/avinash311/itrans/issues/10
+
 ## Version 0.6.1
   * 2023-01-20
   * Updated the iso based transliteration table as one of the defaults.

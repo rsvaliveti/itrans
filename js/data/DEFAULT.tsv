@@ -51,7 +51,7 @@ J | z	za	consonant	u+095B	u+095B	u+095B		u+099Cu+09BC	u+0A5B	u+0A9Cu+0ABC	u+0B1C
 f	fa	consonant	u+095E	u+095E	u+095E		u+09ABu+09BC	u+0A5E	u+0AABu+0ABC	u+0B2Bu+0B3C			u+0C5E	u+0CABu+0CBC			f	f	f
 Y	yya	consonant	u+095F	u+095F	u+095F		u+09DF			u+0B5F			u+0C5F						
 	marwari-dda	consonant	u+0978	u+0978	u+0978								u+0C78						
-	zha	consonant	u+0979	u+0979	u+0979				u+0AF9				u+0C79						
+Zh	zha	consonant	u+0979	u+0979	u+0979				u+0AF9				u+0C79						
 	heavy-ya	consonant	u+097A	u+097A	u+097A								u+0C7A						
 	gga	consonant	u+097B	u+097B	u+097B								u+0C7B						
 	jja	consonant	u+097C	u+097C	u+097C								u+0C7C						
@@ -111,7 +111,7 @@ au	au	vowel	u+0914	u+0914	u+0914	u+1160D	u+0994	u+0A14	u+0A94	u+0B14	u+0B94	u+0B
 	dv-oo	dependent-vowel									u+0BCB	u+0BCB	u+0C4B	u+0CCB	u+0D4B	u+1134B		ō	ō
 	dv-au	dependent-vowel	u+094C	u+094C	u+094C	u+1163C	u+09CC	u+0A4C	u+0ACC	u+0B4C	u+0BCC	u+0BCC	u+0C4C	u+0CCC	u+0D4C	u+1134C	au	au	au
 																			
-	nukta		u+093C	u+093C	u+093C		u+09BC	u+0A3C	u+0ABC	u+0B3C				u+0CBC		u+1133C			
+Q	nukta		u+093C	u+093C	u+093C		u+09BC	u+0A3C	u+0ABC	u+0B3C				u+0CBC		u+1133C			
 .a	avagraha		u+093D	u+093D	u+093D	u+093D	u+09BD	u+093D	u+0ABD	u+0B3D	u+1133D	u+1133D	u+0C3D	u+0CBD	u+0D3D	u+1133D	’	’	’
 	virama		u+094D	u+094D	u+094D	u+1163F	u+09CD	u+0A4D	u+0ACD	u+0B4D	u+0BCD	u+0BCD	u+0C4D	u+0CCD	u+0D4D	u+1134D			
 .h	explicit-virama		{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}	{virama}{zwnj}			
@@ -119,13 +119,13 @@ au	au	vowel	u+0914	u+0914	u+0914	u+1160D	u+0994	u+0A14	u+0A94	u+0B14	u+0B94	u+0B
 .N	chandrabindu		u+0901	u+0901	u+0901	{anusvara}{dv-candra-e}	u+0981	u+0A01	u+0A81	u+0B01				u+0C81	u+0D01	u+11301	m̐	m̐	m̐
 .n | M | .m	anusvara		u+0902	u+0902	u+0902	u+1163D	u+0982	u+0A02	u+0A82	u+0B02	u+0B82	ம்	u+0C02	u+0C82	u+0D02	u+11302	ṁ	ṁ	ṁ
 H	visarga		u+0903	u+0903	u+0903	u+1163E	u+0983	u+0A03	u+0A83	u+0B03	u+0B83	:	u+0C03	u+0C83	u+0D03	u+11303	ḥ	ḥ	ḥ
+~H	tamil-visarga	dependent-vowel									u+0B83								
 OM | AUM	om		u+0950	u+0950	u+0950	u+0950	ওঁ	u+0A74	u+0AD0	ଓଁ	u+0BD0	ௐ	ఓం	ಓಂ	ഓം	𑍐	oṃ	oṁ	oṁ
-	udatta		u+0951	u+0951	u+0951		u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951
-	anudatta		u+0952	u+0952	u+0952		u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952
-	candrabindu-virama		u+A8F3	u+A8F3	u+A8F3		u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3
-	double-svarita		u+1CDA	u+1CDA	u+1CDA		u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA
-	grave-accent		u+0953	u+0953	u+0953		u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	`	`	`
-	acute-accent		u+0954	u+0954	u+0954		u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	'	'	'
+																			
+\'	svarita		u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951	u+0951
+\_	anudatta		u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952	u+0952
+.ga	grave-accent		u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	u+0953	`	`	`
+.aa	acute-accent		u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	u+0954	'	'	'
 |	danda		u+0964	u+0964	u+0964	u+11641	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	.	.	.
 ||	double-danda		u+0965	u+0965	u+0965	u+11642	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	..	..	..
 																			
@@ -140,13 +140,18 @@ OM | AUM	om		u+0950	u+0950	u+0950	u+0950	ওঁ	u+0A74	u+0AD0	ଓଁ	u+0BD0	ௐ	
 8	eight		u+096E	u+096E	u+096E	u+11658	u+09EE	u+0A6E	u+0AEE	u+0B6E	u+0BEE	u+0BEE	u+0C6E	u+0CEE	u+0D6E	u+0BEE	8	8	8
 9	nine		u+096F	u+096F	u+096F	u+11659	u+09EF	u+0A6F	u+0AEF	u+0B6F	u+0BEF	u+0BEF	u+0C6F	u+0CEF	u+0D6F	u+0BEF	9	9	9
 																			
-	candrabindu-avagraha		u+A8F7	u+A8F7	u+A8F7		u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7
-	pushpika		u+A8F8	u+A8F8	u+A8F8		u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8
+.ka	karshana		u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0
+.sh	shara		u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1
+.pr	prenkha		u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2
+.ni	nihshvasa		u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3
+\''	double-svarita		u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA	u+1CDA
 																			
-	karshana		u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0	u+1CD0
-	shara		u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1	u+1CD1
-	prenkha		u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2	u+1CD2
-	nihshvasa		u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3	u+1CD3
+\m	spacing-candrabindu	vedic-tone	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2	u+A8F2
+\m+	candrabindu-virama	vedic-sign	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3	u+A8F3
+\m++	double-candrabindu-virama	vedic-sign	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4
+.N.a	candrabindu-avagraha	vedic-sign	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7	u+A8F7
+.pu	pushpika	vedic-tone	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8	u+A8F8
+.si	siddham	vedic-tone	u+A8FC	u+A8FC	u+A8FC		u+0980					u+0C77	u+0C84			꣼			
 																			
 ~o	abbreviation					u+11643													
 ^h	huva					u+11644													

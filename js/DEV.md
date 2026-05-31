@@ -8,16 +8,24 @@ How to build this package.
 
 While there are many ways to build and update these Javascript sources, here is what was used to build this package.
 
-This package has been tested with [Node.js](https://nodejs.org/en) v6.9.1 release, any later version will most likely work.
-If that package is locally installed, say in a folder called `node-v6.9.1-linux-x64`, then some of the command line programs will be available in there:
+2026-May: Current versions used for testing and web deployment:
+```
+$ npm -v
+10.9.7
+$ node -v
+v22.22.2
+```
 
-`node-v6.9.1-linux-x64/bin/node` - may need to copy or link this to /usr/bin or such so it is in some $PATH folder.
+Installed using (2026-May);
 
-`node-v6.9.1-linux-x64/bin/npm`
+```
+$ curl -fsSL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh
+$ sudo -E bash nodesource_setup.sh
+$ sudo apt install nodejs -y
+```
 
-On some Linux distributions, an old version of Node.js may be installed. If so, that may need to be uinstalled, otherwise, it may result in strange output from npm invocations.
-
-Assumes at least these versions:
+Past versions tested but some code has been updated so will not run with older
+such as node-fetch which is no longer used and node.js function fetch used instead).
 
 ```
     npm --version
@@ -32,10 +40,7 @@ Assumes at least these versions:
 In the directory that contains package.json (itrans/js/package.json)
 run:
 
-    `npm ci`        [in npm 5.7.1 version or newer, uses package-lock.json]
-
-    [in older npm versions or if npm ci fails]
-    `npm install`
+    `npm install` then `npm ci`        [in npm 5.7.1 version or newer, creates package-lock.json]
 
 This will install all the dev dependencies.
 Dependencies are listed in the package.json file.
@@ -73,7 +78,7 @@ and the new browserify command results in a file size of around 40K instead of 3
 
 # Updating spreadsheet for customized Javascript package
 
-`data/DEFAULT_TSV.js` and `data\iso_tsv.tsv` is loaded by the Itrans package.
+`data/DEFAULT_TSV.js` and `data/iso_tsv.tsv` is loaded by the Itrans package.
 Old (default) itrans encoding is supported by `DEFAULT_TSV.tsv`, and it loads `DEFAULT.tsv` from the same directory.
 New (iso15919 based) encoding is supported by `iso_tsv.tsv` and it loads `iso.tsv`.
 It needs the `node-fetch` package to download the spreadsheet.
