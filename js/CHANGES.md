@@ -1,5 +1,17 @@
 # ChangeLog
 
+## Version 0.6.4
+  * 2026-06-25
+  * Updates from https://github.com/avinash311/itrans/issues/12 report
+  *   Many thanks to nsesha92 for these updates.
+  *   With these changes, 5.3 and ISO are the same, except for ^e/e/E, ^o/o/O.
+  * ISO link aczoom.com/itrans/online/?tsv=iso uses a bunch of ISO updates
+  * ISO updates removed extra codes: ng ny nj nx gn gy .ss .an .cbv .N.h .ds
+  * ISO updates added/renamed columns, scripts now available: #IAST #IPA
+  *   All scripts: #sanskrit	#hindi	#marathi	#modi	#bengali	#gurmukhi	#gujarati	#oriya	#tamil	#telugu	#kannada	#malayalam	#grantha	#roman	#IAST	#iso	#IPA
+  * Itrans 5.3 updates
+  *   Old copy of 0.6.3 spreadsheet saved locally, if needed
+
 ## Version 0.6.3
   * 2026-06-07
   * Some more minor updates from updated comments in thread
