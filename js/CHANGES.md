@@ -1,5 +1,11 @@
 # ChangeLog
 
+## Version 0.6.5
+  * 2026-01-01
+  * OM output for some languages was incorrect (double characters output), now fixed.
+  * #roman removed. Use one of the #IAST or #IPA or #iso codes instead.
+  * A bunch of internal-only changes for spreadsheet devanagari reference column.
+
 ## Version 0.6.4
   * 2026-06-25
   * Updates from https://github.com/avinash311/itrans/issues/12 report
@@ -8,7 +14,7 @@
   * ISO link aczoom.com/itrans/online/?tsv=iso uses a bunch of ISO updates
   * ISO updates removed extra codes: ng ny nj nx gn gy .ss .an .cbv .N.h .ds
   * ISO updates added/renamed columns, scripts now available: #IAST #IPA
-  *   All scripts: #sanskrit	#hindi	#marathi	#modi	#bengali	#gurmukhi	#gujarati	#oriya	#tamil	#telugu	#kannada	#malayalam	#grantha	#roman	#IAST	#iso	#IPA
+  *   All scripts: #sanskrit	#hindi	#marathi	#modi	#bengali	#gurmukhi	#gujarati	#oriya	#tamil	#telugu	#kannada	#malayalam	#grantha	#IAST	#iso	#IPA
   * Itrans 5.3 updates
   *   Old copy of 0.6.3 spreadsheet saved locally, if needed
 

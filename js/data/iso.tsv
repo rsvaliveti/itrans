@@ -123,8 +123,8 @@ H	visarga	vedic-sign	u+0903	u+0903	u+0903	u+1163E	u+0983	u+0A03	u+0A83	u+0B03	u+
 \m++	double-candrabindu-virama	vedic-sign	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	u+A8F4	gͫ̄	gͫ̄	gͫ̄	ꣴ
 \''	double-svarita 	vedic-tone	u+1CDA	u+1CDA	u+1CDA						u+1CDA				u+1CDA	̎ 	̎ 	↑↑	 ᳚
 .ga	grave-accent	sign	u+0953	u+0953	u+0953						u+0953				u+0300	`	`	`	॓
-.aa	acute-accent	sign	u+0954	u+0954	u+0954						u+0954				u+0301	'	'	'	॓
-|	danda	sign	u+0964	u+0964	u+0964	u+11641	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	'	'	'	॔
+.aa	acute-accent	sign	u+0954	u+0954	u+0954						u+0954				u+0301	'	'	'	॔
+|	danda	sign	u+0964	u+0964	u+0964	u+11641	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	u+0964	'	'	'	।
 ||	double-danda	sign	u+0965	u+0965	u+0965	u+11642	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	u+0965	..	..	..	॥
 																			
 .N.a	candrabindu-avagraha	vedic-sign	u+A8F7	u+A8F7	u+A8F7										u+A8F7	ꣷ	ꣷ	ꣷ	ꣷ
@@ -140,16 +140,16 @@ H	visarga	vedic-sign	u+0903	u+0903	u+0903	u+1163E	u+0983	u+0A03	u+0A83	u+0B03	u+
 Rs.	rupee-sign	sign	u+20B9	u+20B9	u+20B9	u+20B9	u+09F3	u+20B9	u+0AF1	u+20B9	u+20B9	u+20B9	u+20B9	u+20B9	u+20B9	₹	₹	₹	₹
 ~Rs.	rupee-mark	sign	u+20B9	u+20B9	u+20B9	u+A838	u+09F2	u+20B9	u+20B9	u+20B9	u+20B9	u+20B9	u+20B9	u+20B9	u+20B9	₹	₹	₹	₹
 																			
-0	zero		u+0966	u+0966	u+0966	u+11650	u+09E6	u+0A66	u+0AE6	u+0B66	u+0BE6	u+0C66	u+0CE6	u+0D66	u+0BE6	0	0	0	0
-1	one		u+0967	u+0967	u+0967	u+11651	u+09E7	u+0A67	u+0AE7	u+0B67	u+0BE7	u+0C67	u+0CE7	u+0D67	u+0BE7	1	1	1	1
-2	two		u+0968	u+0968	u+0968	u+11652	u+09E8	u+0A68	u+0AE8	u+0B68	u+0BE8	u+0C68	u+0CE8	u+0D68	u+0BE8	2	2	2	2
-3	three		u+0969	u+0969	u+0969	u+11653	u+09E9	u+0A69	u+0AE9	u+0B69	u+0BE9	u+0C69	u+0CE9	u+0D69	u+0BE9	3	3	3	3
-4	four		u+096A	u+096A	u+096A	u+11654	u+09EA	u+0A6A	u+0AEA	u+0B6A	u+0BEA	u+0C6A	u+0CEA	u+0D6A	u+0BEA	4	4	4	4
-5	five		u+096B	u+096B	u+096B	u+11655	u+09EB	u+0A6B	u+0AEB	u+0B6B	u+0BEB	u+0C6B	u+0CEB	u+0D6B	u+0BEB	5	5	5	5
-6	six		u+096C	u+096C	u+096C	u+11656	u+09EC	u+0A6C	u+0AEC	u+0B6C	u+0BEC	u+0C6C	u+0CEC	u+0D6C	u+0BEC	6	6	6	6
-7	seven		u+096D	u+096D	u+096D	u+11657	u+09ED	u+0A6D	u+0AED	u+0B6D	u+0BED	u+0C6D	u+0CED	u+0D6D	u+0BED	7	7	7	7
-8	eight		u+096E	u+096E	u+096E	u+11658	u+09EE	u+0A6E	u+0AEE	u+0B6E	u+0BEE	u+0C6E	u+0CEE	u+0D6E	u+0BEE	8	8	8	8
-9	nine		u+096F	u+096F	u+096F	u+11659	u+09EF	u+0A6F	u+0AEF	u+0B6F	u+0BEF	u+0C6F	u+0CEF	u+0D6F	u+0BEF	9	9	9	9
+0	zero		u+0966	u+0966	u+0966	u+11650	u+09E6	u+0A66	u+0AE6	u+0B66	u+0BE6	u+0C66	u+0CE6	u+0D66	u+0BE6	0	0	0	०
+1	one		u+0967	u+0967	u+0967	u+11651	u+09E7	u+0A67	u+0AE7	u+0B67	u+0BE7	u+0C67	u+0CE7	u+0D67	u+0BE7	1	1	1	१
+2	two		u+0968	u+0968	u+0968	u+11652	u+09E8	u+0A68	u+0AE8	u+0B68	u+0BE8	u+0C68	u+0CE8	u+0D68	u+0BE8	2	2	2	२
+3	three		u+0969	u+0969	u+0969	u+11653	u+09E9	u+0A69	u+0AE9	u+0B69	u+0BE9	u+0C69	u+0CE9	u+0D69	u+0BE9	3	3	3	३
+4	four		u+096A	u+096A	u+096A	u+11654	u+09EA	u+0A6A	u+0AEA	u+0B6A	u+0BEA	u+0C6A	u+0CEA	u+0D6A	u+0BEA	4	4	4	४ 
+5	five		u+096B	u+096B	u+096B	u+11655	u+09EB	u+0A6B	u+0AEB	u+0B6B	u+0BEB	u+0C6B	u+0CEB	u+0D6B	u+0BEB	5	5	5	५
+6	six		u+096C	u+096C	u+096C	u+11656	u+09EC	u+0A6C	u+0AEC	u+0B6C	u+0BEC	u+0C6C	u+0CEC	u+0D6C	u+0BEC	6	6	6	६
+7	seven		u+096D	u+096D	u+096D	u+11657	u+09ED	u+0A6D	u+0AED	u+0B6D	u+0BED	u+0C6D	u+0CED	u+0D6D	u+0BED	7	7	7	७
+8	eight		u+096E	u+096E	u+096E	u+11658	u+09EE	u+0A6E	u+0AEE	u+0B6E	u+0BEE	u+0C6E	u+0CEE	u+0D6E	u+0BEE	8	8	8	८
+9	nine		u+096F	u+096F	u+096F	u+11659	u+09EF	u+0A6F	u+0AEF	u+0B6F	u+0BEF	u+0C6F	u+0CEF	u+0D6F	u+0BEF	9	9	9	९
 																			
 {}	no-ligature	command	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}	{virama}{zwj}				
 _	no-output	command																	
